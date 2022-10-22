@@ -1,0 +1,48 @@
+body{
+    background-color: #041C32;
+    font-family: Biotif;
+    margin-top: 70px;
+}
+
+h1{
+    color: #ECB365;
+    display: flex;
+    justify-content: center;
+}
+
+.TombolAtas{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.TombolBawah{
+    display: flex;
+    justify-content: center;
+}
+
+.marginkanan{
+    margin-right: 15px;
+}
+
+.marginkiri{
+    margin-left: 15px;
+}
+
+button{
+    aspect-ratio: 1/1;
+    height: 170px;
+    background-color: #041C32;
+    background-image: url(LandingPageRobot.png);
+    background-position-x: center;
+    background-position-y: 16px;
+    background-repeat: no-repeat;
+    background-size: 85%;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border: #ECB365 solid 2px;
+    margin: 3px 100px;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
