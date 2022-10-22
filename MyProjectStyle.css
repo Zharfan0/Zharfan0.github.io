@@ -1,7 +1,7 @@
 body{
     background-color: #041C32;
     font-family: Biotif;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 h1{
@@ -29,7 +29,7 @@ h1{
     margin-left: 15px;
 }
 
-button{
+.tombol{
     aspect-ratio: 1/1;
     height: 170px;
     background-color: #041C32;
@@ -39,10 +39,24 @@ button{
     background-repeat: no-repeat;
     background-size: 85%;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     cursor: pointer;
     border: #ECB365 solid 2px;
     margin: 3px 100px;
     padding: 8px 16px;
     border-radius: 5px;
+}
+
+.home{
+    background-color: transparent;
+    border: #ECB365 1px solid;
+    color: #ECB365;
+    padding: 8px 16px;
+    font-size: 12px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+    margin-top: 45px;
 }
