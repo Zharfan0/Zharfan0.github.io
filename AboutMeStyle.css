@@ -58,5 +58,11 @@ button{
     margin-right: auto;
     display: block;
     cursor: pointer;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: #ECB365;
+    color: black;
 }
 

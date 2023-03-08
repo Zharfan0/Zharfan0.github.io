@@ -16,6 +16,11 @@ h1{
     justify-content: center;
 }
 
+.tombol:hover {
+    background-color: #ECB365;
+    color: black;
+}
+
 .TombolBawah{
     display: flex;
     justify-content: center;
@@ -33,7 +38,6 @@ h1{
     aspect-ratio: 1/1;
     height: 170px;
     background-color: #041C32;
-    background-image: url(LandingPageRobot.png);
     background-position-x: center;
     background-position-y: 16px;
     background-repeat: no-repeat;
@@ -45,6 +49,7 @@ h1{
     margin: 3px 100px;
     padding: 8px 16px;
     border-radius: 5px;
+    transition: 0.4s;
 }
 
 .home{
@@ -59,4 +64,17 @@ h1{
     display: block;
     cursor: pointer;
     margin-top: 45px;
+    transition: 0.4s;
+}
+
+.home:hover {
+    background-color: #ECB365;
+    color: black;
+}
+
+.desain {
+    color: #ECB365;
+    font-family: Biotif;
+    font-size: 24px;
+    font-weight: bold;
 }
